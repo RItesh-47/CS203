@@ -1,2 +1,2 @@
 # CS203
-CS203 assignments
+This repo contains assignments for course CS203 in the spring of 2024.
