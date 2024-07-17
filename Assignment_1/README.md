@@ -1,4 +1,4 @@
-Bertrand\'s Paradox Simulation
+# Bertrand\'s Paradox Simulation
 
 Each and every of the given three Python scripts simulate a solution
 method for Bertrand\'s paradox.
@@ -16,20 +16,24 @@ sides only if the other endpoint lies on the minor arc between the other
 centre , all chords with distance greater than r/2 (r=radius) are longer
 than the sides of triangle.
 
-How to run the code:
+## How to run the code:
 
-1\. Dependencies: - Python 3.x - Matplotlib library
+## 1\. Dependencies: - 
+Python 3.x - Matplotlib library
 
-2\. Installation: - Ensure you have Python installed on your system. -
+## 2\. Installation: -
+Ensure you have Python installed on your system. -
 Install Matplotlib library using pip: pip install matplotlib.
 
-3\. Running the Script: - Download the specific script (Bertland1.py or
+## 3\. Running the Script: -
+Download the specific script (Bertland1.py or
 Bertland2.py or Bertland3.py) which you want to view and save it in your
 directory. - Open a terminal or command prompt. - Navigate to the
 directory where the script is saved. - Run the script by executing the
 command: python Bertland1.py or simply open the desried file in VS Code.
 
-4\. Understanding the Output: (a) The first script displays all the
+## 4\. Understanding the Output: 
+(a) The first script displays all the
 chords passing through 2 set of points , firstly through points outside
 the incircle of triangle and secondly within the incircle. Both of these
 chords are colored differently. - The script will display a visual
@@ -59,7 +63,8 @@ plotted in green, while those with distance beyond this are plotted in
 red. - The script prints the proportion of chords at a distance less
 than ½ from centre to total number of chords.
 
-5\. Interpreting the Results: (a) For method 1: - The printed ratio
+## 5\. Interpreting the Results: 
+(a) For method 1: - The printed ratio
 indicates the likelihood of randomly drawn chords being longer than the
 side of an equilateral triangle inscribed in the circle. - According to
 Bertrand\'s paradox, if all chords passing through some point within the
@@ -77,6 +82,6 @@ selecting a line segment within a distance of 1/2 of the circle\'s
 radius from the center. - This probability represents the likelihood of
 a randomly chosen line segment satisfying the specified condition
 
-6\. Customization:  - You can adjust the number of simulated chords (n)
+## 6\. Customization:  - You can adjust the number of simulated chords (n)
 by changing the variable value in the script.  - The radius of the
 circle can also be modified by changing the radius variable.
